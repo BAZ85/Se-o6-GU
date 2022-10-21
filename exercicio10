@@ -1,0 +1,11 @@
+cont = 1
+soma = 0
+
+for num in range(0, 1000):
+    while cont <= 50:
+        if num % 2 == 0:
+            soma = soma + num
+            cont = cont + 1
+        break
+
+print(f'A soma dos primeiros 50 números pares, incluindo o zero, é {soma}')
