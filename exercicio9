@@ -1,0 +1,9 @@
+n = int(input("Digite um numero: "))
+cont = 1
+
+for num in range(0, 100):
+    while cont <= n:
+        if num % 2 != 0:
+            print(num)
+            cont = cont + 1
+        break
